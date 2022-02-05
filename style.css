@@ -526,7 +526,7 @@ button {
     font-size: 14px;
     opacity: 1;
 }
-
+/*OUVERTURE DES IMG*/
 a[data-lightbox] {
     position: relative;
     display: block;
@@ -647,7 +647,7 @@ label
 .btn,
 a {
     font-family: "helvetica";
-    font-weight: 500;
+    font-weight: 400;
     color: #575757;
 }
 
@@ -1028,9 +1028,9 @@ h4 {
 /* ************ MODIFICATIONS ************ */
 
 #sticky-nav {
-    position: fixed; /* Make it stick/fixed */
-    top: 0; /* Stay on top */
-    width: 100%; /* Full width */
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
     transition: top .3s;
     z-index: 10000;
     box-shadow: 0px 0px 5px 0px #00000050;
@@ -1077,6 +1077,7 @@ p {
     flex-direction: column;
     padding-top: 10px;
     font-size: 15px;
+    font-style: normal;
 }
 
 .title {
@@ -1091,7 +1092,7 @@ p {
     width: 100%;
     font-size: 18px;
     text-transform: initial;
-    line-height: 18px;
+    line-height: 25px;
 }
 
 .links-btn {
@@ -1185,7 +1186,4 @@ textarea {
         width: auto;
     }
 
-    .google-maps iframe {
-        width: 100%;
-    }
 }
